@@ -1,0 +1,127 @@
+
+body
+{
+	background: #1F1C2C;  
+	
+	margin:0px;
+	overflow-x: hidden;
+	
+
+}
+
+.head
+{
+	background-image: url(../4.jpg);
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:#FFF;
+}
+#banner
+{
+	text-align: center;
+	background-color:rgba(0,0,0,0.7);
+	padding: 1%;
+}
+.clg
+{
+	font-family:"Segoe UI";
+	font-size:16px;
+	color:red;
+	display: none;
+}
+#wrapper
+{
+	width:90%;
+	height: 68vh;
+	padding: 3%;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.7);
+}
+.SubHead
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:20px;
+}
+.labels
+{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	color:#000;
+}
+
+.form-div {
+	width: 20%;
+	min-height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+select {
+	width: 100%;
+	color: #FF3;
+}
+
+.fields
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	color:#000;
+	border-radius:5px;
+	padding:4px 6px;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.fields:focus {
+	outline: none;
+}	
+
+
+.fld-btn {
+	background: cyan;
+	margin-top: 20px;
+	padding: 0.5rem 1rem;
+	border:  none;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.fld-btn:hover {
+	transition: 0.1s5;
+	box-shadow: 0px 0px 6px grey;
+}
+
+
+.table
+{
+	border-radius:5px;
+	padding:0px 5px;
+}
+
+a.link:link{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:active{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:visited{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:hover{font-family:"Segoe UI";font-size:16px;color:#F6F;text-decoration:none;}
+.msg
+{
+	font-family:"Segoe UI";
+	color:#6F6;
+	font-size:13px;
+}
+a.Command:link{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border: none;border-radius:5px;}
+a.Command:active{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border: none;border-radius:5px;}
+a.Command:visited{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border: none;border-radius:5px;}
+a.Command:hover{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border: none;border-radius:5px;box-shadow:0px 0px 10px rgba(128,128,128,0.7);}
+
+
+a {
+	padding: 1rem !important;
+	margin: 0.6rem;
+}
