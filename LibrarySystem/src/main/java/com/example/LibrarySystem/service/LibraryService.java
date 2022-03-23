@@ -15,24 +15,29 @@ public class LibraryService
     @Autowired
     private LibraryRepository repo;
 
-    public List<Library> listAll()
+    public List<Library> getAllLibrary()
     {
         return repo.findAll();
     }
 
-    public void save(Library std)
+    public void saveLibrary(Library library)
     {
-        repo.save(std);
+        repo.save(library);
     }
 
-    public Library get(long id)
+    public Library getLibraryById(Long id)
     {
         return repo.findById(id).get();
     }
 
-    public void delete(long id)
+    public Library updateLibrary(Library library)
+    {
+        return repo.save(library);
+    }
+
+    public void delete(Long id)
     {
         repo.deleteById(id);
     }
-   
+
 }

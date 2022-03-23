@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Library Management System</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Library Management System</a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+	</nav>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+				<h1 class="text-center">Update Student</h1>
+				<div class="card-body">
+					<form action="#" th:action="@{/book/save}" th:object="${library}"
+						method="POST">
+
+
+						<label>Book id</label><input type="text" th:field="*{id}"
+							class="form-control mb-4 col-4" /> <label>Book Name</label><input
+							type="text" th:field="*{bookname}"
+							class="form-control mb-4 col-4" /> <label>Author Name</label><input
+							type="text" th:field="*{author}" class="form-control mb-4 col-4" />
+						<br>
+						<button type="submit" class="btn btn-info col-2">Update
+							Book</button>
+					</form>
+
+					<hr>
+					<a th:href="@{/book}">Back to Library</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

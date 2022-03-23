@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,44 +16,76 @@ import org.springframework.web.servlet.ModelAndView;
 import com.example.LibrarySystem.domain.Library;
 import com.example.LibrarySystem.service.LibraryService;
 
-@Controller 
+@Controller
 public class LibraryController
 {
     @Autowired
-    private LibraryService service;
- 
-   @GetMapping("/")
-    public String viewHomePage(Model model) {
-        List<Library> listbook = service.listAll();
-        model.addAttribute("listbook", listbook);
-        System.out.print("Get / ");
-        return "index";
+
+    private LibraryService libraryService;
+
+    public LibraryController(LibraryService libraryService)
+    {
+        super();
+        this.libraryService = libraryService;
     }
- 
-    @GetMapping("/new")
-    public String add(Model model) {
-        Library lib = new Library();
-        model.addAttribute("library",lib);
-        return "new";
+
+    @GetMapping("/book")
+    public String listbook(Model model)
+    {
+        int b = 20;
+        model.addAttribute("book", libraryService.getAllLibrary());
+        return "book";
     }
- 
-    @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public String savebook(@ModelAttribute("Library") Library std) {
-        service.save(std);
-        return "redirect:/";
+
+    @GetMapping("/book/new")
+    public String createLibaryForm(Model model)
+    {
+        int a = 10;
+        Library library = new Library();
+        model.addAttribute("library", library);
+        return "createbook";
+
     }
- 
-    @RequestMapping("/edit/{id}")
-    public ModelAndView showEditbookPage(@PathVariable(name = "id") int id) {
-        ModelAndView mav = new ModelAndView("new");
-        Library std = service.get(id);
-        mav.addObject("Library", std);
-        return mav;
-        
+
+    @PostMapping("/book")
+    public String saveLibrary(@ModelAttribute("library") Library library)
+    {
+        libraryService.saveLibrary(library);
+        return "redirect:/book";
     }
-    @RequestMapping("/delete/{id}")
-    public String deletebook(@PathVariable(name = "id") int id) {
-        service.delete(id);
-        return "redirect:/";
+
+    @GetMapping("/book/edit/{id}")
+    public String editLibraryForm(@PathVariable Long id, Model model)
+    {
+        model.addAttribute("library", libraryService.getLibraryById(id));
+        return "editbook";
     }
+
+    @PostMapping("/book/{id}")
+    public String updateLibrary(@PathVariable Long id, @ModelAttribute("library") Library library, Model model)
+    {
+
+        Library existingLibrary = libraryService.getLibraryById(id);
+        existingLibrary.setId(id);
+        existingLibrary.setBookname(library.getBookname());
+        existingLibrary.setAuthor(library.getAuthor());
+        libraryService.updateLibrary(existingLibrary);
+        return "redirect:/book";
+    }
+
+    @PostMapping(value = "/book/save")
+    public String saveBook(@ModelAttribute("book") Library book)
+    {
+
+        libraryService.saveLibrary(book);
+        return "redirect:/book";
+    }
+
+    @GetMapping("/book/{id}")
+    public String deleteLibrary(@PathVariable Long id)
+    {
+        libraryService.delete(id);
+        return "redirect:/book";
+    }
+
 }
