@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:59:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m        Book oldbook = Book.findById(book.id);[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^  symbol:   variable book[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class BookController[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:64:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m        oldbook.title=book.title;[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^  symbol:   variable book[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class BookController[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:65:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m        oldbook.author=book.author;[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^  symbol:   variable book[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class BookController[0m

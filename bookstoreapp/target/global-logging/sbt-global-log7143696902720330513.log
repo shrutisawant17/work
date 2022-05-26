@@ -1,0 +1,939 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_321)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 473.993ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 66.4716ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.2683ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 6.8743ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 15.5259 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project bookstoreapp-build from plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(bookstoreapp-build) took 44.7824ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id bookstoreapp-build, base: C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\project, plugins: List(<none>))) took 86.2773ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\project, returning: (bookstoreapp-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 291.7563ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 7.6646ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/shrutis/Downloads/play-samples-play-java-starter-example/bookstoreapp/project/, ...) took 370.6706ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 459.9899ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 4.5661ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 48.079ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 6.9774ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 296.8077ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 77.1346ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.3412ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 2300.5625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0032ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.4645ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.test.MediatorWorkaroundPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgent),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(com.lightbend.sbt.javaagent.JavaAgent), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))),Set(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayJava,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,com.typesafe.sbteclipse.plugin.EclipsePlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,play.sbt.PlayLogback,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.PlayAkkaHttpServer,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 12.9868 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 119.7973ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp, plugins: List(play.sbt.PlayJava))) took 134.7666ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 190.0926ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 1.4186ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/shrutis/Downloads/play-samples-play-java-starter-example/bookstoreapp/, ...) took 2493.0348ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 2507.9705ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.1166ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 17.3334ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.6746ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 126.7099ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 39.5557ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0025ms[0m
+[0m[[0m[0minfo[0m] [0m[0m  __              __[0m
+[0m[[0m[0minfo[0m] [0m[0m  \ \     ____   / /____ _ __  __[0m
+[0m[[0m[0minfo[0m] [0m[0m   \ \   / __ \ / // __ `// / / /[0m
+[0m[[0m[0minfo[0m] [0m[0m   / /  / /_/ // // /_/ // /_/ /[0m
+[0m[[0m[0minfo[0m] [0m[0m  /_/  / .___//_/ \__,_/ \__, /[0m
+[0m[[0m[0minfo[0m] [0m[0m      /_/               /____/[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion 2.8.15 running Java 1.8.0_321[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPlay is run entirely by the community. Please consider contributing and/or donating:[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.playframework.com/sponsors[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:22:1:  error: incompatible types: List<Book> cannot be converted to Set<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m    Set<Book> books = Book.allBooks();[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:24:1:  error: method render in class index cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m    return ok(index.render(books));[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^  required: String,AssetsFinder[0m
+[0m[[0m[31merror[0m] [0m[0m  found: List<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:24:1:  error: method render in class index cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m    return ok(index.render(books));[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^  required: String,AssetsFinder[0m
+[0m[[0m[31merror[0m] [0m[0m  found: List<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:24:1:  error: method render in class index cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m    return ok(index.render(books));[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^  required: String,AssetsFinder[0m
+[0m[[0m[31merror[0m] [0m[0m  found: List<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:29:1:  error: method render in class index1 cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m            index1.render([0m
+[0m[[0m[31merror[0m] [0m[0m                  ^  required: List<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  found: String,AssetsFinder[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 2 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\index1.scala.html:14:43: value BooksController is not a member of object controllers.routes[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean BookController?[0m
+[0m[[0m[31merror[0m] [0m[0m    <a class="btn btn-link" href="@routes.BooksController.show(book.id)">Title : @book.title</a>[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:3:5: ';' expected but '[' found.[0m
+[0m[[0m[31merror[0m] [0m[0m<!DOCTYPE html>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:11:13: missing argument list for method apply in object form[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_,_)(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m@helper.form(action = routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:18: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m@helper.inputText(bookForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:18: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:18: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:18: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id")) [0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:11:6: not found: value userForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@if(userForm.hasGlobalErrors) {[0m
+[0m[[0m[31merror[0m] [0m[0m	    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:17: not found: value userForm[0m
+[0m[[0m[31merror[0m] [0m[0m  @for(error <- userForm.globalErrors) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:19:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id")) [0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:20:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:21:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:22:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id")) [0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id")) [0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id")) [0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("title"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("author"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("price"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:19: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(bookForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m[Error] C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13[0m
+[0m[[0m[31merror[0m] [0m[0m	<input type="submit" values="Create Book"> }: Not parsed?[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m[Error] C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13[0m
+[0m[[0m[31merror[0m] [0m[0m	<input type="submit" values="Create Book"> }: Not parsed?[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:21:23: not found: value filledForm[0m
+[0m[[0m[31merror[0m] [0m[0m    @helper.inputText(filledForm("name"))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:21:22: An implicit MessagesProvider instance was not found.  Please see https://www.playframework.com/documentation/latest/ScalaForms#Passing-MessagesProvider-to-Form-Helpers[0m
+[0m[[0m[31merror[0m] [0m[0m    @helper.inputText(bookForm("name"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:bookstoreapp[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m[Error] C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:20[0m
+[0m[[0m[31merror[0m] [0m[0m</html>: Expected '}' but found 'EOF'[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:10:35: value BooksController is not a member of object controllers.routes[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean BookController?[0m
+[0m[[0m[31merror[0m] [0m[0m	    @helper.form(action = routes.BooksController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:10: not found: value _booksFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @_booksFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:27: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @_booksFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:10: not found: value _booksFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @_booksFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:27: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @_booksFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:10: not found: value _bookFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:26: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:10: not found: value _bookFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:26: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:3:20: object partials is not a member of package views.html[0m
+[0m[[0m[31merror[0m] [0m[0m@import views.html.partials._booksFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:10: not found: value _bookFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:26: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @_bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:3:20: object partials is not a member of package views.html[0m
+[0m[[0m[31merror[0m] [0m[0m@import views.html.partials._booksFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:10: not found: value bookFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:25: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:3:20: object partials is not a member of package views.html[0m
+[0m[[0m[31merror[0m] [0m[0m@import views.html.partials._booksFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:10: not found: value bookFormFields[0m
+[0m[[0m[31merror[0m] [0m[0m        @bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:25: not found: value bookFrom[0m
+[0m[[0m[31merror[0m] [0m[0m        @bookFormFields(bookFrom)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m[Error] C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:25[0m
+[0m[[0m[31merror[0m] [0m[0m</html>: Expected ending '}'[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:14: missing argument list for method apply in object form[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_,_)(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: not found: value _helper[0m
+[0m[[0m[31merror[0m] [0m[0m	@_helper.form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:16: not found: value action[0m
+[0m[[0m[31merror[0m] [0m[0m	@_helper.form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper . form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:16:15: value formFeild is not a member of object views.html.helper.CSRF[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean formField?[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.CSRF.formFeild[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:17:20: not found: value newUserForm[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper.inputText(newUserForm("id"))[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper. form(action=routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:14:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save())[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:13:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:12:3: package views.html.helper is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m	@helper .form( action = routes.BookController.save()){[0m
+[0m[[0m[31merror[0m] [0m[0m	 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m[Error] C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\views\create.scala.html:15[0m
+[0m[[0m[31merror[0m] [0m[0m}: Not parsed?[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source and 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:33:1:  error: method render in class create cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok(create.render(bookForm));[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^  required: Form<Book>,Messages[0m
+[0m[[0m[31merror[0m] [0m[0m  found: Form<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:33:1:  error: method render in class create cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok(create.render(bookForm));[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^  required: Form<Book>,Messages[0m
+[0m[[0m[31merror[0m] [0m[0m  found: Form<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\controllers\BookController.java:33:1:  error: method render in class create cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m        return ok(create.render(bookForm));[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^  required: Form<Book>,Messages[0m
+[0m[[0m[31merror[0m] [0m[0m  found: Form<Book>[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m

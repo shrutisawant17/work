@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(8ac0dfca-1951-43d2-a5c7-db6cad1d31aa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources and 3 Java sources to C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\models\Book.java:15:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0mpublic class Book extends Model{[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^  symbol: class Model[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\models\Book.java:14:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m@Entity[0m
+[0m[[0m[31merror[0m] [0m[0m ^  symbol: class Entity[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\models\Book.java:39:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m    public static Finder<Integer,Book> find = new Finder<>(Book.class);[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^  symbol:   class Finder[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class Book[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\models\Book.java:17:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m    @Id[0m
+[0m[[0m[31merror[0m] [0m[0m     ^  symbol:   class Id[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class Book[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\app\models\Book.java:39:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m    public static Finder<Integer,Book> find = new Finder<>(Book.class);[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^  symbol:   class Finder[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class Book[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors[0m
+[0m[[0m[33mwarn[0m] [0m[0mjavac exited with exit code 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed 11 May, 2022 7:43:23 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

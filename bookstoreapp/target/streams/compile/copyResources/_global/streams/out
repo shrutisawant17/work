@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\conf\application.conf,C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\conf\logback.xml,C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\conf\routes,C:\Users\shrutis\Downloads\play-samples-play-java-starter-example\bookstoreapp\target\scala-2.13\classes\routes)[0m
